@@ -12,6 +12,7 @@ public class Springboot01QuickstartApplication {
         ConfigurableApplicationContext context = SpringApplication.run(Springboot01QuickstartApplication.class, args);
         BookController controller = context.getBean(BookController.class);
         System.out.println(controller);
+        System.out.println(123);
     }
 
 }
